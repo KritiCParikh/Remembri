@@ -2,6 +2,7 @@
 
 > _“Hi again — still in New York, right?”_
 
+![Remembri](https://github.com/KritiCParikh/Remembri/3.jpg?raw=true)
 ---
 
 ## What Is This?
