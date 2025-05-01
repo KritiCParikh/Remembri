@@ -4,7 +4,7 @@
 
 ---
 
-## 🤖 What Is This?
+## What Is This?
 
 Remembri is an AI assistant with a working memory, one that remembers your name, where you're from, what you like, and what’s changed since the last time you spoke.
 
@@ -12,7 +12,7 @@ This isn’t about fancy embeddings or overly complex neural nets. It’s about 
 
 ---
 
-## ❓ The Problem
+## The Problem
 
 Most AI chat assistants live in the moment.  
 They forget everything the moment the page reloads.  
@@ -22,27 +22,27 @@ Even powerful LLMs like Claude or GPT-4 can’t recall past conversations unless
 
 ---
 
-## 🔧 What I Built (The Action)
+## What I Built (The Action)
 
 Originally a live interview challenge, worked on it and now call **Remembri**:
 
-- 📚 **Memory System**  
+- **Memory System**  
   Structured schema to store persistent facts: your name, location, likes, dislikes, etc.
 
-- 🧠 **Claude Integration**  
+- **Claude Integration**  
   Injects stored memory into every prompt sent to Claude. Lets Claude decide when to remember, recall, or update facts.
 
-- 🛠️ **Tool-Calling Engine**  
+- **Tool-Calling Engine**  
   Claude returns tool instructions like:  
   `[TOOL_CALL: update_memory("location", "Portland")]`  
   These are parsed, executed, and saved.
 
-- 💬 **Streaming Chat UI**  
+- **Streaming Chat UI**  
   Real-time frontend using `EventSource`, styled like a modern AI assistant.
 
 ---
 
-## 🧪 The Result
+## The Result
 
 Remembri can now:
 
@@ -53,10 +53,10 @@ Remembri can now:
 
 | 🧠 Capability               | Result  | Notes                                  |
 |----------------------------|---------|----------------------------------------|
-| 🔁 Repeated input reduction | ~73%    | Users don’t have to repeat basic info  |
-| 🧠 Context-aware replies    | +40%    | Responses are smarter and location-aware |
-| 💬 Personalized replies     | +30%    | Replies include name/preferences       |
-| ⚙️ Tool-call success rate   | ~95%    | 19/20 tool calls executed cleanly      |
+| Repeated input reduction | ~73%    | Users don’t have to repeat basic info  |
+| Context-aware replies    | +40%    | Responses are smarter and location-aware |
+| Personalized replies     | +30%    | Replies include name/preferences       |
+| ⚙Tool-call success rate   | ~95%    | 19/20 tool calls executed cleanly      |
 
 ---
 
@@ -128,3 +128,5 @@ References:
 Thank you so much to the KamiwazaAI team for providing me with this thoughtful and challenging project during the interview process, and for granting me permission to work on it and share it.
 
 All credit for the original task goes to the team.
+
+Thank You. Let’s keep learning and growing together!
